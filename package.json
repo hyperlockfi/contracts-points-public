@@ -1,0 +1,25 @@
+{
+  "name": "@hyperlock/contracts-public",
+  "description": "Hyperlock Smart Contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "shx rm -rf ./artifacts ./cache ./coverage ./types/generated ./coverage.json ./contracts/convex-platform",
+    "reset": "yarn clean && yarn compile",
+    "compile": "yarn hardhat compile"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-vyper": "^3.0.5",
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts-0.6": "npm:@openzeppelin/contracts@3.4.0",
+    "@openzeppelin/contracts-0.8": "npm:@openzeppelin/contracts@4.4.2",
+    "@openzeppelin/contracts-upgradeable-0.6": "npm:@openzeppelin/contracts-upgradeable@3.4.0",
+    "ethers": "6.7.1",
+    "hardhat": "^2.18.3",
+    "shx": "^0.3.4"
+  },
+  "files": [
+    "/contracts"
+  ]
+}

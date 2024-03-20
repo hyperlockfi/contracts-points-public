@@ -1,0 +1,16 @@
+.DS_*
+# directories
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+**/artifacts
+**/build
+**/cache
+**/node_modules
+# files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
