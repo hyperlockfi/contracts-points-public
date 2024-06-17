@@ -1,0 +1,10 @@
+{
+    "points": {
+        "points": "0x60a87d7102E2Fc1131fFF347a36d4c89C1458CA4",
+        "erc20deposits": "0xC3EcaDB7a5faB07c72af6BcFbD588b7818c4a40e",
+        "erc721deposits": "0xc28EffdfEF75448243c1d9bA972b97e32dF60d06"
+    },
+    "nfpViewHelper": "0x6F6e069a8eb081e1839B3302DD75008FAcC4d372",
+    "nfpViewHelperV2": "0x5E70b87D6749615626c3a6733DEc80D04c75D1AC",
+    "singleSidedDepositor": "0x741Ff2c04714bf37400db45F0A52CD7C4685940e"
+}
